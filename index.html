@@ -9,27 +9,29 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Test Page</title>
-    <meta name="description" content="a PAGE TO TEST GITHUB">
+    <title>Video Loader</title>
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link href="load/load-style.css" rel="stylesheet" type="text/css">
+    <!--Favicon-->
 
     <head profile="http://www.w3.org/2005/10/profile">
-        <link rel="icon" type="image/png" href="https://fhsalum.github.io/public_web/assets/favicon.png" />
+        <link rel="icon" type="image/png" href="assets/favicon.png" />
     </head>
+</head>
 
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-     <![endif]-->
-        <h1>Github testing</h1>
-        <h2>Landing and load pages</h2>
-        <a href="https://fhsalum.github.io/public_web/load_1/">Load #1</a>
-        <a href="https://fhsalum.github.io/public_web/load_2/">Load #2</a>
-        <pre></pre>
-        <a href="https://fhsalum.github.io/public_web/vl.html">Test video loader</a>
+<body>
+    <!--  Content  -->
+    <article>
+        <img src="load/logo.png">
+    </article>
 
-        <script src="" async defer></script>
-    </body>
+    <!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+    <video autoplay loop id="video-background" muted plays-inline>
+        <source src="load/load_v1.mp4" type="video/mp4">
+    </video>
+    <!-- partial -->
+    <script src="" async defer></script>
+</body>
 
 </html>

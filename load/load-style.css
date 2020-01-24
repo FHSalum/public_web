@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+    background: #333;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* The only rule that matters */
+
+#video-background {
+    /*  making the video fullscreen  */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+}
+
+
+/* These just style the content */
+
+article {
+    /*  just a fancy border  */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 10px solid #466987;
+    margin: 10px;
+}
+
+img {
+    /*  logo  */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 0 0 10px 10px;
+    padding: 0;
+    width: 33%;
+}
