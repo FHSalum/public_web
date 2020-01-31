@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     /*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
-    background: #333;
+    background: #ffffff;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -20,6 +20,7 @@ body {
     width: 100%;
     height: auto;
     z-index: -100;
+    text-align: center;
 }
 
 
